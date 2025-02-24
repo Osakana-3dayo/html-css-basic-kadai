@@ -33,10 +33,10 @@ main {
         font-size: 25px;
         border-bottom: dotted 3px rgb(236, 122, 122);
       }
-  .kasa{
-  font-weight: bold;
-  color: rgb(97, 206, 249);
-}
+      p:nth-of-type(2)::first-letter {
+        font-weight: bold;
+        color: rgb(97, 206, 249);
+       }
 img{
   margin: 10px 0;
   width: 70%;
